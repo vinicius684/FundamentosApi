@@ -18,7 +18,7 @@ namespace ApiFuncional.Controllers
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]//Formatador de resposta
         [ProducesDefaultResponseType]
         public async Task<ActionResult<IEnumerable<Produto>>> GetProdutos() //Task de um actionResult que retorna uma coleção de Produto
         {

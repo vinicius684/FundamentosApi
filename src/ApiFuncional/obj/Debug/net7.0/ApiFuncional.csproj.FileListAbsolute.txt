@@ -74,3 +74,9 @@ C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAs
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\obj\Debug\net7.0\ApiFuncional.pdb
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\obj\Debug\net7.0\ApiFuncional.genruntimeconfig.cache
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\obj\Debug\net7.0\ref\ApiFuncional.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
