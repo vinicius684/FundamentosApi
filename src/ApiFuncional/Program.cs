@@ -3,10 +3,14 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddControllers()  
+    .ConfigureApiBehaviorOptions(options =>//suprimindo validação de entidade do asp.net
+    { 
+        options.SuppressModelStateInvalidFilter = true;//Se a model estiver num formato inválido, suprima(ignore)
+    
+    });
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
