@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Consumir API com Ajax</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+    <button id="fetchData">Buscar Produto</button>
+    <div id="result">
+        <!-- O resultado será inserido aqui -->
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#fetchData").click(function() {
+                $.ajax({
+                    url: 'https://localhost:7157/api/produtos/2',
+                    type: 'GET',
+                    success: function(response) {
+                        var htmlContent = `<p>ID: ${response.id}</p>
+                                           <p>Nome: ${response.nome}</p>
+                                           <p>Preço: ${response.preco}</p>
+                                           <p>Quantidade em Estoque: ${response.quantidadeEstoque}</p>
+                                           <p>Descrição: ${response.descricao}</p>`;
+                        $("#result").html(htmlContent);
+                    },
+                    error: function(error) {
+                        console.log("Ocorreu um erro:", error);
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

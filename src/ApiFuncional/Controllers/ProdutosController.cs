@@ -33,6 +33,7 @@ namespace ApiFuncional.Controllers
         }
 
         [AllowAnonymous]
+        //[EnableCors("Production")]
         [HttpGet("{id:int}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
