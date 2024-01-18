@@ -118,6 +118,7 @@ namespace ApiFuncional.Controllers
             return NoContent();//204
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id:int}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
