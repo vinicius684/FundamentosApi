@@ -80,3 +80,4 @@ C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAs
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\vpinh\OneDrive\Área de Trabalho\Desenvolvedor.io\_4FundamentosDeApisAspDotNetCore\ApiFuncional\src\ApiFuncional\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -33,7 +33,7 @@ var JwtSettingsSection = builder.Configuration.GetSection("JwtSettings");//pegan
 builder.Services.Configure<JwtSettings>(JwtSettingsSection);//Configurando JWT com os dados da minha section
 
 var jwtSettings = JwtSettingsSection.Get<JwtSettings>(); //instancia da minha classe populada/buscando
-var key = Encoding.ASCII.GetBytes(jwtSettings.Segredo);//criada chave
+var key = Encoding.ASCII.GetBytes(jwtSettings.Segredo);//criada chave //encoding de uma sequencia de bytes da minha chave
 
 builder.Services.AddAuthentication(options =>//Adicionando e Configurando autenticação
 {
